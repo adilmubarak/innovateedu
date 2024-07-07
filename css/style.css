@@ -8,6 +8,32 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+/* Untuk seluruh halaman */
+
+body {
+    overflow: overlay;
+    /* Menggunakan overlay untuk tetap mempertahankan scrollability */
+}
+
+
+/* Atur scrollbar agar tetap transparan */
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* Untuk Chrome, Safari, dan Opera */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    /* Atur background transparan */
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    /* Atur thumb scrollbar transparan */
+}
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
